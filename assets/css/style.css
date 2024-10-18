@@ -58,6 +58,16 @@
     color: var(--secondary);
 
   }
+
+  #me {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    line-height: 2.0;
+    text-indent: 0px;
+    max-width: 100%;
+    margin: 0px 200px 200px 250px;
+  }
   
   header {
     padding: 15px 6% 15px 0;
@@ -133,13 +143,12 @@
     margin-bottom: 45px;
   }
   
-  .about {
+  #about {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: center;
     flex-wrap: wrap;
     align-items: left;
-    margin-top: 50px;
+    margin: 200px 0px 0px 50px;
   }
 
   .work {
