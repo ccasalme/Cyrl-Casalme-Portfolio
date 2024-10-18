@@ -87,6 +87,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   #nav1 {
@@ -154,6 +156,8 @@
     align-items: left;
     margin-top: 50px;
   }
+
+  /*
 
   .hero-banner {
     background: rgb(68, 88, 120);
@@ -240,8 +244,10 @@
     transition: all 0.5s;
     font-size: 0.9rem;
   }
-  
+  */
+
   /* feature first portfolio item */
+  /*
   .flex-item:first-child {
       min-height: 400px;
       flex-basis: 100%;
@@ -287,9 +293,10 @@
     background-size: 100% 88%;
     color: var(--secondary);
   }
-  
+  */
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
+  /*
   .run-buddy {
     
   }
@@ -309,7 +316,7 @@
   .surf-report {
     
   }
-  
+  */
   /* media queries */
   
   /* media queries for a max-width of 980px */
@@ -324,6 +331,5 @@
       justify-content: center;
     }
   }
-  
+
   /* TODO: add media query for a max-width of 768px */
-  
