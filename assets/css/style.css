@@ -6,6 +6,7 @@
     font-family: "Felipa", cursive;
     font-weight: 400;
     font-style: normal;
+    margin-top: 50px;
   }
   .felipa-regular {
     font-family: "Felipa", serif;
@@ -19,23 +20,35 @@
     font-style: normal;
     display: flex;
     flex-direction: row;
-    justify-content: flext-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 50px;
   }
   
   
   /* brand color palette */
   :root {
+    color: var(--primary-color, #17e1e8);
+    color: var(--secondary-color, #3e7bd1);
+    color: var(--tertiary-color, #162636);
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
   }
   
   body {
+    background-color: var(--tertiary);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 100;
+    padding: 10;
 
   }
   
-  h1, h2, h3 {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 400;
+  h2, h3 {
+      font-family: "Felipa", serif;
+      font-weight: 900;
       color: var(--primary);
     }
   
@@ -115,60 +128,37 @@
     font-size: 1.4rem;
   }
 
-  nav a:hover {
-    background-size: 100% 100%;
-    color: var(--primary);
-  }
-  
-  nav a:last-child {
-    margin-right: 0;
-  }
-  
   main {
     margin-top: 20px;
     margin-bottom: 45px;
   }
   
-  .hero-banner {
-    background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: soft-light;
-    min-height: 30vh;
-    color: var(--light);
-    padding: 2% 6%;
+  .about {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: right;
-  }
-  
-  
-  .flex-container {
-    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: left;
+    margin-top: 50px;
   }
-  
-  .flex-item {
-    border: 5px solid var(--secondary);
-    background-color: var(--primary);
-    color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
+
+  .work {
     display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 0.5em;
-    text-decoration: none;
-    background-blend-mode: soft-light;
-    background-size: 150%;
-    transition: all 0.5s;
-    font-size: 0.9rem;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: left;
+    margin-top: 50px;
   }
-  
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: left;
+    margin-top: 50px;
+  }
   /* feature first portfolio item */
   
   /* portfolio project images */
