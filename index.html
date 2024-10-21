@@ -1,82 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Cyrl Casalme</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This meta tag provides a brief summary of the page content-->
     <meta name="description" content="Cyrl Casalme Portfolio">
     <!--This meta tag specifies the name of the author of the webpage-->
     <meta name="author" content="Cyrl Casalme">
-    <!--This link is for Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Felipa&display=swap" rel="stylesheet">
-    <!--This link is for the CSS file-->
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-
-  </head>
-
-  <body>
-    <!-- Header -->
+    <!--Keywords that are relevant to the page content-->
+    <meta name="keywords" content="Cyrl Casalme">
+    <title>Cyrl Casalme Portfolio</title>
+        <!--This link is for Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Felipa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <header>
-      <h1 class="cyrlfont">Cyrl Casalme's Portfolio</h1>
-          <!-- Navbar -->
-        <ul class="nav">
-            <nav id="nav1">About Me</nav>
-            <nav id="nav2">Work</nav>
-            <nav id="nav3">Contact Me</nav>
-        </ul>
+        <h1 class="cyrlfont">Who is Cyrl Casalme?</h1>
+        <nav>
+            <a href="#home">About Me</a>
+            <a href="#about">Work Experiences</a>
+            <a href="#services">Other Services</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
     </header>
 
-    <!-- Body -->
-    <main class=".container">
-        <aside>
-            <h2 class="about">About Me</h2>
-        </aside>
-        
-        <section class="me">
-            <p>
-                With a diverse background in both sales and the financial sector,
-                I bring expertise in account management, financial analysis, negotiation, and client relations.
-                I excel in understanding client needs and delivering personalized solutions.
-            </p>
-            <p>
-                My digital proficiency spans Microsoft Office, Google Suite, WordPress,
-                and various CRM tools, alongside experience in web technologies like 
-                HTML, CSS, JavaScript, and SEO practices. 
-            </p>
-            <p>
-                Fluent in English and Tagalog, I offer strong skills in
-                leadership, problem-solving, content creation, and market research, 
-                all while maintaining a client-centric approach.
-            </p>
-        </section>
-    </main>
-
-    <br>
     <main>
-        <h2 class="work">Work</h2>
-        <section>
-            <div class="sample-img">Image</div>
-            <p>..all of the image placeholders will change colors!</p>
-        </section>
-
-        <br />
-        <h2 class="contact">Contact Me</h2>
-        <section>
-            <div class="sample-img">Image</div>
-            <p>
-            What are we going to do about the sidebar and body columns becoming 
-            squished on a smaller screen?
-            </p>
-        </section>
+        <div class="hero-banner">
+            <div>
+                <h2>Cyrl Casalme's Portfolio</h2>
+                <p>Hi! I'm Cyrl and welcome to my page!</p>
+            </div>
+        </div>
+        <div class="page-wrapper">
+            <section class="page-section">
+                <h2>About Me</h2>
+                <div>
+                  <p>
+                    With a diverse background in both sales and the financial sector,
+                    I bring expertise in account management, financial analysis, negotiation, and client relations.
+                    I excel in understanding client needs and delivering personalized solutions. <br>
+                
+                    My digital proficiency spans Microsoft Office, Google Suite, WordPress,
+                    and various CRM tools, alongside experience in web technologies like 
+                    HTML, CSS, JavaScript, and SEO practices. <br> 
+          
+                    Fluent in English and Tagalog, I offer strong skills in
+                    leadership, problem-solving, content creation, and market research, 
+                    all while maintaining a client-centric approach.
+                </p>
+                </div>
+            </section>
+            <h2 class="page-section">Portfolio</h2>
+            <section class="flex-container">
+                <div class="flex-item">
+                    <div>
+                        <h3>Product One</h3>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <h3>Product Two</h3>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div>
+                        <h3>Product Three</h3>
+                    </div>
+                </div>
+                <div class="flex-item">
+                  <div>
+                      <h3>Product Four</h3>
+                  </div>
+              </div>
+                <div class="flex-item">
+                    <div>
+                        <h3>Product Five</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
-    <!-- Footer -->
-    <footer>
-      <h3>
-        Copyright 2024. All rights reserved by Cyrl Casalme
-      </h3>
+    <footer class="contact">
+        <h2 class="page-section">Contact Me</h2>
+        <address>
+            <a href="cyrl.casalme@gmail.com">Email: cyrl.casalme@gmail.com</a>
+            <a href="tel:905-923-7752">Call: 905-923-7752</a>
+            <a href="https://github.com/ccasalme">Github Profile: CCasalme</a>
+        </address>
     </footer>
-  </body>
+</body>
 </html>

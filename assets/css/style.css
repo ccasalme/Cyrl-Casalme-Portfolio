@@ -30,7 +30,7 @@
   /* brand color palette */
   :root {
     color: var(--primary-color, #17e1e8);
-    color: var(--secondary-color, #3e7bd1);
+    color: var(--secondary-color, #0e1218);
     color: var(--tertiary-color, #162636);
     --font-weight-regular: 400;
     --font-weight-bold: 700;
