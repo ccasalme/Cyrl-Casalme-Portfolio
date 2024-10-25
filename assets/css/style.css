@@ -181,35 +181,35 @@ main {
     min-height: 400px;
     flex-basis: 100%;
     background-image: url("../images/timer.jpg");
-    background-size: contain
+    background-size: contain;
 }
 
 .flex-item:nth-child(2) {
   min-height: 200px;
   flex-basis: calc(50% - 1em);
   background-image: url("../images/led-wall.jpeg");
-  background-size: contain
+  background-size: contain;
 }
 
 .flex-item:nth-child(3) {
   min-height: 200px;
   flex-basis: calc(50% - 1em);
   background-image: url("../images/react-calc.jpg");
-  background-size: contain
+  background-size: contain;
 }
 
 .flex-item:nth-child(4) {
   min-height: 200px;
   flex-basis: calc(50% - 1em);
   background-image: url("../images/pastel-puzzles.png");
-  background-size: contain
+  background-size: contain;
 }
 
 .flex-item:nth-child(5) {
   min-height: 200px;
   flex-basis: calc(50% - 1em);
   background-image: url("../images/surf-report.png");
-  background-size: contain
+  background-size: contain;
 }
 
 
@@ -257,53 +257,6 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 
-.run-buddy {
-  background-image: url("../images/timer.jpg");
-  .flex-item:first-child {
-      min-height: 400px;
-      flex-basis: 100%;
-      background-size: contain;
-  }
-}
-
-.led-wall {
-  background-image: url("../images/led-wall.jpeg");
-  .flex-item:nth-child(2) {
-      min-height: 200px;
-      flex-basis: calc(50% - 1em);
-      background-size: contain
-  }
-  
-}
-
-.react-calc {
-  background-image: url("../images/react-calc.jpg");
-  .flex-item:nth-child(3) {
-      min-height: 200px;
-      flex-basis: calc(50% - 1em);
-      background-size: contain
-  }
-  
-}
-
-.pastel-puzzles {
-  background-image: url("../images/pastel-puzzles.png");
-  .flex-item:nth-child(4) {
-      min-height: 200px;
-      flex-basis: calc(50% - 1em);
-      background-size: contain
-  }
-  
-}
-
-.surf-report {
-  background-image: url("../images/surf-report.png");
-  .flex-item:nth-child(5) {
-      min-height: 200px;
-      flex-basis: calc(50% - 1em);
-      background-size: contain
-  }
-}
 
 /* media queries */
 
